@@ -1,0 +1,26 @@
+.garamond{
+    font-family: 'Cormorant Garamond', serif;
+}
+.darker {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+h1.darker {
+    font-size:60px;
+    color: white;
+}
+.top {
+    color: white;
+}
+.top h1 {
+    text-align: center;
+}
+.top h1:hover {
+    color: black;
+}
+.top p{
+    font-size: e1.25;
+    /* ... */
+}
+ol li {
+
+}
