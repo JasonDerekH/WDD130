@@ -1,6 +1,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    padding: 10 auto;
     text-align: 0 auto;
 }
 
@@ -43,6 +44,7 @@ main section {
 
 .mountains img {
     margin: 0 auto;
+    padding: 10px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -102,6 +104,7 @@ footer p a:hover {
 }
 
 .icon {
+    padding: 0;
     width: 80px;
 }
 
@@ -110,5 +113,6 @@ footer p a:hover {
 }
 
 #hero_img {
+    padding: 10px;
     width: 100%;
 }
