@@ -1,26 +1,52 @@
-.garamond{
+#content {
+    text-align: center;
+    align-items: center;
+}
+#education {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+.lighter{
     font-family: 'Cormorant Garamond', serif;
+    color: #ffffff;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
 }
 .darker {
     font-family: 'Darker Grotesque', sans-serif;
-}
-h1.darker {
-    font-size:60px;
-    color: white;
-}
-.top {
-    color: white;
-}
-.top h1 {
     text-align: center;
+    color: #ffffff
 }
-.top h1:hover {
-    color: black;
+.darker:hover {
+    color: #000000
 }
-.top p{
-    font-size: e1.25;
-    /* ... */
+
+.quote {
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
-ol li {
+
+ol {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+li {
+    margin: 0 auto;
+}
+
+.big_quote {
+    font-weight: 600;
+    color: #ffffff;
+    
+}
+
+.item_list {
+    font-weight: 500;
+    text-align: left;
+    display: inline-block;
 
 }
