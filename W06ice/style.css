@@ -1,0 +1,42 @@
+body {
+    font-family: 'Georgia', serif;
+    display: grid;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    background-color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.cherries {
+    width: 50%;
+    background-size: cover; /*maybe change*/
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+.text {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    font-size: 3rem;
+    font-weight: bold;  
+}
+.highlight {
+    background-color: lightgray;
+    /* padding: 10px 15px; */
+}
+.Tart {
+    z-index: 1;
+}
+.red-text {
+    color: darkred;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
