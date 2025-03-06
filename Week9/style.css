@@ -1,0 +1,40 @@
+body {
+    max-width: 350px;
+    
+    border-radius: 20px 20px;
+    background-color: hsl(0, 5%, 12%);
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.content {
+    padding-top: -10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.image {
+    margin-top: 10px;
+    margin-bottom: 0 auto;
+    padding-bottom: 0 auto;
+    border-radius: 20px 20px 0px 0px;
+    width: 350px;
+    height: 250px;
+}
+
+.smallword {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bigword {
+    display: flex;
+    justify-content: center;
+}
+
+.test {
+    justify-content: center;
+    background-color: white;
+    
+    height: 100%;
+}
