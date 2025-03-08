@@ -133,6 +133,23 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px; /* Space between image and text */
+}
+
+.container-right {   /* Causes the content to display backwards in the row */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.container img {
+    width: 300px;
+    flex-shrink: 0; /* Prevents image from shrinking */
+}
 
 .msg h2 {
     color: #333333; /* Dark Gray */
