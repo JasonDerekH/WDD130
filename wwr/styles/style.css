@@ -234,6 +234,13 @@ footer p a:hover {
     margin-top: 100px;
 }
 
+.social a img{
+    
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
