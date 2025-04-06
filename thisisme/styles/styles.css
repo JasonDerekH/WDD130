@@ -100,17 +100,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(1fr,8);
-        column-gap: 75px;
+        column-gap: 50px;
     }
 
     .p1 {
         grid-area: 2 1 3 1;
+        text-align: center;
     }
     .p2 {
         grid-area: 1 2 4 1;
     }
     .p3 {
         grid-area: 2 3 3 1;
+        text-align: center;
     }
     
 
@@ -121,8 +123,14 @@
     }
     .img2 {
         grid-area: 5 2 4 1;
-        max-width: 400px;
+        max-width: 350px;
         margin: 0 auto;
+    }
+
+    .img3 {
+      grid-column-start: 3;
+      grid-row-start: 2;
+      margin: 0 auto;
     }
 
     /* CSS for Work Experience Page Starts Here */
